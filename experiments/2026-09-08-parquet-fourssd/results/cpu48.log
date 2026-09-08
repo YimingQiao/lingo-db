@@ -1,0 +1,4 @@
+{"case": "cpu-zstd-4disk-warm-scan", "status": "start"}
+{"case": "cpu-zstd-4disk-warm-scan", "status": "done"}
+{"case": "cpu-zstd-4disk-cold-scan", "status": "start"}
+{"case": "cpu-zstd-4disk-cold-scan", "status": "done"}

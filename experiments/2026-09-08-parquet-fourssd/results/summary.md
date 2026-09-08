@@ -1,0 +1,34 @@
+| Case | Median s | Min–max s | File GB/s | CPU equivalents |
+|---|---:|---:|---:|---:|
+| cpu-none-1disk-cold-scan | 108.213 | 107.587–108.214 | 0.635 | 1.14 |
+| cpu-none-2disk-cold-scan | 53.616 | 53.198–53.619 | 1.282 | 2.23 |
+| cpu-none-4disk-cold-scan | 26.322 | 26.311–26.330 | 2.611 | 4.15 |
+| cpu-none-4disk-warm-scan | 5.271 | 5.267–5.358 | 13.042 | 23.79 |
+| cpu-snappy-1disk-cold-scan | 62.151 | 61.523–62.159 | 0.639 | 3.48 |
+| cpu-snappy-2disk-cold-scan | 30.589 | 30.478–30.593 | 1.299 | 6.90 |
+| cpu-snappy-2disk-cold-sum | 30.611 | 30.595–30.615 | 1.298 | 7.34 |
+| cpu-snappy-4disk-cold-scan | 14.824 | 14.818–14.915 | 2.680 | 13.90 |
+| cpu-snappy-4disk-cold-sum | 14.905 | 14.785–14.932 | 2.666 | 15.25 |
+| cpu-snappy-4disk-warm-scan | 8.079 | 8.052–8.268 | 4.918 | 24.25 |
+| cpu-zstd-1disk-cold-scan | 36.454 | 36.101–36.493 | 0.645 | 4.88 |
+| cpu-zstd-2disk-cold-scan | 17.807 | 17.682–17.851 | 1.320 | 9.96 |
+| cpu-zstd-2disk-cold-sum | 17.735 | 17.708–17.747 | 1.325 | 10.83 |
+| cpu-zstd-4disk-cold-scan | 10.848 | 10.706–11.005 | 2.166 | 15.90 |
+| cpu-zstd-4disk-cold-sum | 12.011 | 11.764–12.162 | 1.957 | 15.64 |
+| cpu-zstd-4disk-warm-scan | 7.526 | 7.401–7.533 | 3.122 | 22.08 |
+| gpu-none-1disk-cold-scan | 108.209 | 107.568–108.210 | 0.635 | 0.47 |
+| gpu-none-2disk-cold-scan | 53.638 | 53.612–53.651 | 1.282 | 0.79 |
+| gpu-none-4disk-cold-scan | 26.407 | 26.389–26.424 | 2.603 | 1.47 |
+| gpu-none-4disk-warm-scan | 6.148 | 6.142–6.152 | 11.181 | 13.19 |
+| gpu-snappy-1disk-cold-scan | 62.158 | 61.441–62.158 | 0.639 | 0.49 |
+| gpu-snappy-2disk-cold-scan | 30.603 | 30.247–30.617 | 1.298 | 0.86 |
+| gpu-snappy-2disk-cold-sum | 30.615 | 30.056–30.625 | 1.298 | 0.88 |
+| gpu-snappy-4disk-cold-scan | 14.859 | 14.775–14.873 | 2.674 | 1.63 |
+| gpu-snappy-4disk-cold-sum | 14.870 | 14.868–14.885 | 2.672 | 1.71 |
+| gpu-snappy-4disk-warm-scan | 5.255 | 5.254–5.266 | 7.561 | 9.08 |
+| gpu-zstd-1disk-cold-scan | 36.395 | 36.315–36.395 | 0.646 | 0.56 |
+| gpu-zstd-2disk-cold-scan | 17.728 | 17.395–17.731 | 1.326 | 1.08 |
+| gpu-zstd-2disk-cold-sum | 17.738 | 17.301–17.739 | 1.325 | 1.09 |
+| gpu-zstd-4disk-cold-scan | 8.520 | 8.500–8.554 | 2.758 | 2.01 |
+| gpu-zstd-4disk-cold-sum | 9.234 | 9.224–9.271 | 2.545 | 1.95 |
+| gpu-zstd-4disk-warm-scan | 5.746 | 5.739–5.773 | 4.090 | 5.21 |

@@ -1,0 +1,7 @@
+TARGET      SOURCE          FSTYPE OPTIONS
+/           /dev/nvme0n1p1  ext4   rw,relatime,discard,errors=remount-ro,commit=30
+├─/boot     /dev/nvme0n1p16 ext4   rw,relatime
+├─/mnt/ssd0 /dev/nvme1n1    ext4   rw,noatime,data=ordered
+├─/mnt/ssd1 /dev/nvme2n1    ext4   rw,noatime,data=ordered
+├─/mnt/ssd2 /dev/nvme3n1    ext4   rw,noatime,data=ordered
+└─/mnt/ssd3 /dev/nvme4n1    ext4   rw,noatime,data=ordered
