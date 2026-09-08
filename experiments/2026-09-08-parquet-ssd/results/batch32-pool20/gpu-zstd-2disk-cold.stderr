@@ -1,0 +1,20 @@
+[  7187][09:00:41:891938][error ] [A][Stream 0x2b741720][Upstream 6618167296B][FAILURE maximum pool size exceeded: Not enough room to grow, current/max/try size = 18.163631 GiB, 20.000000 GiB, 6.163649 GiB]
+Traceback (most recent call last):
+  File "/home/ubuntu/parquet-experiment/bench.py", line 110, in <module>
+    sums = [x + y for x, y in zip(sums, scan(files[offset:offset+a.batch]))]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/parquet-experiment/bench.py", line 81, in scan
+    table = cudf.read_parquet([str(f) for f in paths])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/parquet-venv/lib/python3.12/site-packages/cudf/io/parquet.py", line 1099, in read_parquet
+    df = _parquet_to_frame(
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/parquet-venv/lib/python3.12/site-packages/cudf/io/parquet.py", line 1266, in _parquet_to_frame
+    return _read_parquet(
+           ^^^^^^^^^^^^^^
+  File "/home/ubuntu/parquet-venv/lib/python3.12/site-packages/cudf/io/parquet.py", line 1485, in _read_parquet
+    tbl_w_meta = plc.io.parquet.read_parquet(options)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pylibcudf/io/parquet.pyx", line 647, in pylibcudf.io.parquet.read_parquet
+  File "pylibcudf/io/parquet.pyx", line 681, in pylibcudf.io.parquet.read_parquet
+MemoryError: std::bad_alloc: out_of_memory: RMM failure at:/__w/rmm/rmm/cpp/src/mr/detail/pool_memory_resource_impl.cpp:71: Maximum pool size exceeded (failed to allocate 6.163649 GiB): Not enough room to grow, current/max/try size = 18.163631 GiB, 20.000000 GiB, 6.163649 GiB

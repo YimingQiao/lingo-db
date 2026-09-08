@@ -1,0 +1,2 @@
+# Raw measurements and tool output are evidence, not source-formatting targets.
+results/** -whitespace

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "sudo",
+    "env",
+    "CUDA_VISIBLE_DEVICES=0",
+    "KVIKIO_COMPAT_MODE=OFF",
+    "CUFILE_ENV_PATH_JSON=/home/ubuntu/parquet-experiment/cufile-strict.json",
+    "/home/ubuntu/parquet-venv/bin/python",
+    "/home/ubuntu/parquet-experiment/probe_gds.py",
+    "--root",
+    "/mnt/ssd0"
+  ],
+  "returncode": 1
+}

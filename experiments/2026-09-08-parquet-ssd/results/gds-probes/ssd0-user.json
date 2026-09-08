@@ -1,0 +1,9 @@
+{
+  "command": [
+    "/home/ubuntu/parquet-venv/bin/python",
+    "/home/ubuntu/parquet-experiment/probe_gds.py",
+    "--root",
+    "/mnt/ssd0"
+  ],
+  "returncode": 1
+}

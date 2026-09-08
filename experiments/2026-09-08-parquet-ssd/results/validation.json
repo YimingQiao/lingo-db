@@ -1,0 +1,9 @@
+{
+  "validation": "PASS",
+  "successful_cells": 56,
+  "timing_observations": 168,
+  "dataset_shards_per_layout": 384,
+  "layouts_verified_byte_identical": 2,
+  "gds_verified": false,
+  "validator": "scripts/validate_results.py"
+}

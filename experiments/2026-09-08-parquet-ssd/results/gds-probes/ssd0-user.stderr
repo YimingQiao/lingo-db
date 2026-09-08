@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/parquet-experiment/probe_gds.py", line 25, in <module>
+    read = f.pread(buf).get()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/parquet-venv/lib/python3.12/site-packages/kvikio/cufile.py", line 57, in get
+    return self._handle.get()
+           ^^^^^^^^^^^^^^^^^^
+  File "kvikio/_lib/future.pyx", line 36, in kvikio._lib.future.IOFuture.get
+RuntimeError: cuFile error at: /__w/kvikio/kvikio/cpp/src/file_handle.cpp:196: Operation not permitted

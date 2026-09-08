@@ -1,0 +1,105 @@
+[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-6.17.0-1020-aws root=PARTUUID=b6646204-dd62-48b5-921b-feb019fb9c2c ro intel_idle.max_cstate=1 processor.max_cstate=1 console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 nvme_core.multipath=N panic=-1
+[    0.121908] Kernel command line: BOOT_IMAGE=/vmlinuz-6.17.0-1020-aws root=PARTUUID=b6646204-dd62-48b5-921b-feb019fb9c2c ro intel_idle.max_cstate=1 processor.max_cstate=1 console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 nvme_core.multipath=N panic=-1
+[    1.952933] nvme nvme0: pci function 0000:00:04.0
+[    1.955786] nvme nvme1: pci function 0000:33:00.0
+[    1.957530] nvme 0000:33:00.0: enabling device (0000 -> 0002)
+[    1.961177] nvme nvme2: pci function 0000:34:00.0
+[    1.962087] nvme 0000:34:00.0: enabling device (0000 -> 0002)
+[    1.969355] nvme nvme0: 2/0/0 default/read/poll queues
+[    1.977273]  nvme0n1: p1 p14 p15 p16
+[    1.979168] nvme nvme1: 31/0/0 default/read/poll queues
+[    1.981782] nvme nvme2: 31/0/0 default/read/poll queues
+[    2.478893] EXT4-fs (nvme0n1p1): Supports (experimental) DIO atomic writes awu_min: 4096, awu_max: 4096
+[    2.483077] EXT4-fs (nvme0n1p1): mounted filesystem 9a0c5a4c-c182-4726-ab35-8c0ccd1fee89 ro with ordered data mode. Quota mode: none.
+[    3.386222] systemd[1]: Expecting device dev-nvme1n1.device - /dev/nvme1n1...
+[    3.388478] systemd[1]: Expecting device dev-nvme2n1.device - /dev/nvme2n1...
+[    3.779901] EXT4-fs (nvme0n1p1): re-mounted 9a0c5a4c-c182-4726-ab35-8c0ccd1fee89 r/w.
+[    4.015800] nvme nvme0: using unchecked data buffer
+[    4.558809] EXT4-fs (nvme0n1p16): Supports (experimental) DIO atomic writes awu_min: 4096, awu_max: 4096
+[    4.560808] EXT4-fs (nvme0n1p16): mounted filesystem 64375848-128e-49ad-bdc3-fbe594aa399d r/w with ordered data mode. Quota mode: none.
+[    4.567046] EXT4-fs (nvme1n1): mounted filesystem 58dfe385-acf1-4903-82a1-7587165b3028 r/w with ordered data mode. Quota mode: none.
+[    4.569489] EXT4-fs (nvme2n1): mounted filesystem 1bef0c7d-39dd-4832-ae04-411c167cbdc6 r/w with ordered data mode. Quota mode: none.
+[    8.075292] block nvme1n1: No UUID available providing old NGUID
+[   17.940755] nvme1n1: I/O Cmd(0x2) @ LBA 294912, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.941820] operation not supported error, dev nvme1n1, sector 294912 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.943270] nvme1n1: I/O Cmd(0x2) @ LBA 295168, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.944442] operation not supported error, dev nvme1n1, sector 295168 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.946064] nvme1n1: I/O Cmd(0x2) @ LBA 295424, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.947111] operation not supported error, dev nvme1n1, sector 295424 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.948571] nvme1n1: I/O Cmd(0x2) @ LBA 295680, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.949744] operation not supported error, dev nvme1n1, sector 295680 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.951214] nvme1n1: I/O Cmd(0x2) @ LBA 295936, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.952378] operation not supported error, dev nvme1n1, sector 295936 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.953845] nvme1n1: I/O Cmd(0x2) @ LBA 296192, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.955012] operation not supported error, dev nvme1n1, sector 296192 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.956479] nvme1n1: I/O Cmd(0x2) @ LBA 296448, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.957641] operation not supported error, dev nvme1n1, sector 296448 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.959115] nvme1n1: I/O Cmd(0x2) @ LBA 296704, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.960279] operation not supported error, dev nvme1n1, sector 296704 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.961744] nvme1n1: I/O Cmd(0x2) @ LBA 296960, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.962904] operation not supported error, dev nvme1n1, sector 296960 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   17.964389] nvme1n1: I/O Cmd(0x2) @ LBA 297216, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   17.965535] operation not supported error, dev nvme1n1, sector 297216 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.915662] nvme_log_error: 54 callbacks suppressed
+[   34.915666] nvme1n1: I/O Cmd(0x2) @ LBA 278528, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.916743] operation not supported error, dev nvme1n1, sector 278528 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.918539] nvme1n1: I/O Cmd(0x2) @ LBA 278784, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.919836] operation not supported error, dev nvme1n1, sector 278784 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.921670] nvme1n1: I/O Cmd(0x2) @ LBA 279040, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.922944] operation not supported error, dev nvme1n1, sector 279040 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.924762] nvme1n1: I/O Cmd(0x2) @ LBA 279296, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.926031] operation not supported error, dev nvme1n1, sector 279296 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.927859] nvme1n1: I/O Cmd(0x2) @ LBA 279552, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.929138] operation not supported error, dev nvme1n1, sector 279552 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.930958] nvme1n1: I/O Cmd(0x2) @ LBA 279808, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.932246] operation not supported error, dev nvme1n1, sector 279808 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.934067] nvme1n1: I/O Cmd(0x2) @ LBA 280064, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.935346] operation not supported error, dev nvme1n1, sector 280064 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.937173] nvme1n1: I/O Cmd(0x2) @ LBA 280320, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.938446] operation not supported error, dev nvme1n1, sector 280320 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.940278] nvme1n1: I/O Cmd(0x2) @ LBA 280576, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.941556] operation not supported error, dev nvme1n1, sector 280576 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[   34.943383] nvme1n1: I/O Cmd(0x2) @ LBA 280832, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[   34.944665] operation not supported error, dev nvme1n1, sector 280832 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  211.990753] nvme_log_error: 54 callbacks suppressed
+[  211.990757] nvme1n1: I/O Cmd(0x2) @ LBA 93560832, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  211.992190] operation not supported error, dev nvme1n1, sector 93560832 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  211.994036] nvme1n1: I/O Cmd(0x2) @ LBA 93561088, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  211.995330] operation not supported error, dev nvme1n1, sector 93561088 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  211.997473] nvme1n1: I/O Cmd(0x2) @ LBA 93561344, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  211.998859] operation not supported error, dev nvme1n1, sector 93561344 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  212.000712] nvme1n1: I/O Cmd(0x2) @ LBA 93561600, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  212.002011] operation not supported error, dev nvme1n1, sector 93561600 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  212.003863] nvme1n1: I/O Cmd(0x2) @ LBA 93561856, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  212.005161] operation not supported error, dev nvme1n1, sector 93561856 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  212.007004] nvme1n1: I/O Cmd(0x2) @ LBA 93562112, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  212.008316] operation not supported error, dev nvme1n1, sector 93562112 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  212.010168] nvme1n1: I/O Cmd(0x2) @ LBA 93562368, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  212.011469] operation not supported error, dev nvme1n1, sector 93562368 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  212.013317] nvme1n1: I/O Cmd(0x2) @ LBA 93562624, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  212.014624] operation not supported error, dev nvme1n1, sector 93562624 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  212.016474] nvme1n1: I/O Cmd(0x2) @ LBA 93562880, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  212.017769] operation not supported error, dev nvme1n1, sector 93562880 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  212.019622] nvme1n1: I/O Cmd(0x2) @ LBA 93563136, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  212.020921] operation not supported error, dev nvme1n1, sector 93563136 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.829792] nvme_log_error: 118 callbacks suppressed
+[  218.829796] nvme2n1: I/O Cmd(0x2) @ LBA 35897344, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.831227] operation not supported error, dev nvme2n1, sector 35897344 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.833148] nvme2n1: I/O Cmd(0x2) @ LBA 35897600, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.834465] operation not supported error, dev nvme2n1, sector 35897600 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.836652] nvme2n1: I/O Cmd(0x2) @ LBA 35897856, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.838043] operation not supported error, dev nvme2n1, sector 35897856 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.839925] nvme2n1: I/O Cmd(0x2) @ LBA 35898112, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.841238] operation not supported error, dev nvme2n1, sector 35898112 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.843108] nvme2n1: I/O Cmd(0x2) @ LBA 35898368, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.844406] operation not supported error, dev nvme2n1, sector 35898368 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.846270] nvme2n1: I/O Cmd(0x2) @ LBA 35898624, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.847575] operation not supported error, dev nvme2n1, sector 35898624 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.849434] nvme2n1: I/O Cmd(0x2) @ LBA 35898880, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.850733] operation not supported error, dev nvme2n1, sector 35898880 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.852588] nvme2n1: I/O Cmd(0x2) @ LBA 35899136, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.853896] operation not supported error, dev nvme2n1, sector 35899136 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.855759] nvme2n1: I/O Cmd(0x2) @ LBA 35899392, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.857058] operation not supported error, dev nvme2n1, sector 35899392 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2
+[  218.858918] nvme2n1: I/O Cmd(0x2) @ LBA 35899648, 256 blocks, I/O Error (sct 0x0 / sc 0x2) MORE 
+[  218.860223] operation not supported error, dev nvme2n1, sector 35899648 op 0x0:(READ) flags 0xc800 phys_seg 1 prio class 2

@@ -1,0 +1,25 @@
+{
+  "command": [
+    "sudo",
+    "env",
+    "CUFILE_ENV_PATH_JSON=/home/ubuntu/parquet-experiment/cufile-strict.json",
+    "/usr/local/cuda/gds/tools/gdsio",
+    "-f",
+    "/mnt/ssd0/gds-probe.bin",
+    "-d",
+    "0",
+    "-w",
+    "1",
+    "-s",
+    "8M",
+    "-i",
+    "1M",
+    "-I",
+    "0",
+    "-x",
+    "0",
+    "-T",
+    "1"
+  ],
+  "returncode": 255
+}

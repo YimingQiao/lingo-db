@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "allow_compat_mode": false,
+    "use_pci_p2pdma": true
+  },
+  "block": {"nvme": {"use_pci_p2pdma": true}},
+  "logging": {"level": "INFO", "dir": "/home/ubuntu/parquet-results"},
+  "profile": {"cufile_stats": 3}
+}

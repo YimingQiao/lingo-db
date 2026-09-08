@@ -1,0 +1,129 @@
+ 08-09-2026 08:42:31:737 [pid=2827 tid=2827] INFO   cufio_core:1028 NVML loaded successfully for BAR detection
+ 08-09-2026 08:42:31:739 [pid=2827 tid=2827] INFO   0:334 Lib being used for urcup concurrency : libcufile_ck 
+ 08-09-2026 08:42:31:739 [pid=2827 tid=2827] INFO   cufio_core:620 Loaded successfully  libcufile_ck.so
+ 08-09-2026 08:42:31:746 [pid=2827 tid=2827] INFO   cufio_core:620 Loaded successfully  libmount.so
+ 08-09-2026 08:42:31:750 [pid=2827 tid=2827] INFO   cufio_core:620 Loaded successfully  libudev.so
+ 08-09-2026 08:42:31:750 [pid=2827 tid=2827] INFO   cufio_core:624 Using CKIT static library
+ 08-09-2026 08:42:31:923 [pid=2827 tid=2827] INFO   cufio-drv:160 Is PCIP2PDMA Supported: 1 kernel Support: 1 pci_p2pdma_supported_cuda: 1 checkIfAllGPUsSupportP2PDMA(): 1
+ 08-09-2026 08:42:31:923 [pid=2827 tid=2827] INFO   0:179 nvidia_fs driver open invoked
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] NOTICE  cufio-drv:1162 cuFile enabled with P2PDMA mode
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:190 GDS release version: 1.18.1.6
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:1170 nvidia_fs minimum version: 2.12
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:197 Platform: x86_64
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:507 ============
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:508 ENVIRONMENT:
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:509 ============
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:511 CUFILE_ENV_PATH_JSON : /home/ubuntu/parquet-experiment/cufile-strict.json
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:520 =====================
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:521 DRIVER CONFIGURATION:
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:522 =====================
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:524 NVMe               : p2pdma
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:525 NVMeOF             : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:526 SCSI               : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:527 ScaleFlux CSD      : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:528 NVMesh             : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:531 DDN EXAScaler      : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:535 IBM Spectrum Scale : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:539 NFS                : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:542 BeeGFS             : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:545 ScaTeFS            : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio-drv:548 VIRTIOFS           : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio_rdma:1956 WekaFS             : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio_rdma:1958 Userspace RDMA     : Unsupported
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio_rdma:1967 --Mellanox PeerDirect       : Disabled
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio_rdma:1975 --rdma library              : Not Loaded (libcufile_rdma.so)
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio_rdma:1978 --rdma devices              : Not configured
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio_rdma:1981 --rdma_multipath            : Disabled 
+ 08-09-2026 08:42:31:924 [pid=2827 tid=2827] INFO   cufio_rdma:1986 --rdma_health_monitor       : Not initialized
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   cufio_rdma:1989 --rdma_dev_addr_list_status : Up: 0 Down: 0
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   cufio_core:1080 =====================
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   cufio_core:1081 CUFILE CONFIGURATION:
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   cufio_core:1082 =====================
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   0:2102 properties.use_pci_p2pdma : true
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   0:2104 properties.use_compat_mode : false
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   0:2106 properties.force_compat_mode : false
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   0:2108 properties.gds_rdma_write_support : true
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   0:2110 properties.use_poll_mode : false
+ 08-09-2026 08:42:31:925 [pid=2827 tid=2827] INFO   0:2112 properties.poll_mode_max_size_kb : 4
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2114 properties.max_batch_io_size : 128
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2116 properties.max_batch_io_timeout_msecs : 5
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2118 properties.max_direct_io_size_kb : 1024
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2120 properties.max_device_cache_size_kb : 393216
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2124 properties.per_buffer_cache_size_kb : 16384
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2128 properties.max_device_pinned_mem_size_kb : 33554432
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2130 properties.posix_pool_slab_size_kb : 4 1024 16384 
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2132 properties.posix_pool_slab_count : 128 64 64 
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2136 properties.gpu_bounce_buffer_slab_size_kb : 1024 8192 16384 65536 
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2138 properties.gpu_bounce_buffer_slab_count : 128 8 4 2 
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2141 properties.rdma_peer_affinity_policy : RoundRobin
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2143 properties.rdma_dynamic_routing : 0
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2149 properties.rdma_multipath_enabled : false
+ 08-09-2026 08:42:31:926 [pid=2827 tid=2827] INFO   0:2151 properties.rdma_max_backup_devices : 2
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2153 properties.rdma_io_retry_count : 3
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2155 properties.rdma_io_retry_delay_ms : 100
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2157 properties.rdma_failback_enabled : true
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2159 properties.rdma_failback_delay_ms : 100
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2161 properties.rdma_health_check_interval_ms : 100
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2163 properties.rdma_async_event_monitoring : true
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2165 properties.rdma_unhealthy_threshold : 3
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2168 fs.generic.posix_unaligned_writes : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2171 fs.lustre.posix_gds_min_kb: 0
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2173 fs.lustre.use_pci_p2pdma : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2193 fs.beegfs.posix_gds_min_kb: 0
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2195 fs.beegfs.use_pci_p2pdma : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2210 fs.scatefs.posix_gds_min_kb: 0
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2212 fs.scatefs.use_pci_p2pdma : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2227 fs.weka.rdma_write_support: false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2241 fs.nfs.use_pci_p2pdma : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2255 fs.gpfs.gds_write_support: true
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2257 fs.gpfs.gds_async_support: true
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2259 fs.gpfs.use_pci_p2pdma : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2273 fs.virtiofs.use_pci_p2pdma : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2277 profile.cufile_stats : 3
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2279 miscellaneous.api_check_aggressive : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2281 miscellaneous.enable_static_routing : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2283 miscellaneous.static_routing_filepath : /etc/topology.json
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2294 execution.max_io_threads : 4
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2295 execution.max_io_queue_depth : 128
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2296 execution.parallel_io : true
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2297 execution.min_io_threshold_size_kb : 8192
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2298 execution.max_request_parallelism : 4
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2299 properties.force_odirect_mode : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2301 properties.prefer_iouring : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2305 block.raid.use_pci_p2pdma : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2307 block.nvme.use_pci_p2pdma : true
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   0:2309 block.nvmeof.use_pci_p2pdma : false
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   cufio-plat:994 =========
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   cufio-plat:995 GPU INFO:
+ 08-09-2026 08:42:31:927 [pid=2827 tid=2827] INFO   cufio-plat:996 =========
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:521 GPU index 0 NVIDIA L4 bar:1 bar size (MiB):32768 supports GDS, IOMMU State: Disabled
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:530 GPUs with GDS support: 1 Total GPUs: 1
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:1007 ==============
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:1008 PLATFORM INFO:
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:1009 ==============
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:905 cannot open scsi_mod path, skip scsi check
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:1014 use_mq not detected in scsi configuration.cannot support SCSI disks!
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:876 IOMMU: disabled
+ 08-09-2026 08:42:31:940 [pid=2827 tid=2827] INFO   cufio-plat:826 Nvidia Driver Info Status: Supported(Nvidia Open Driver Installed)
+ 08-09-2026 08:42:31:944 [pid=2827 tid=2827] INFO   cufio-plat:832 Cuda Driver Version Installed:  13020
+ 08-09-2026 08:42:31:944 [pid=2827 tid=2827] INFO   cufio-plat:860 Platform: g6.8xlarge, Arch: x86_64(Linux 6.17.0-1020-aws)
+ 08-09-2026 08:42:31:944 [pid=2827 tid=2827] INFO   cufio-plat:1051 Platform verification succeeded
+ 08-09-2026 08:42:32:793 [pid=2827 tid=2827] INFO   cufio-udev:516 no devices found by udev enumeration for pci class: infiniband
+ 08-09-2026 08:42:32:794 [pid=2827 tid=2827] INFO   cufio-udev:516 no devices found by udev enumeration for pci class: infiniband
+ 08-09-2026 08:42:32:795 [pid=2827 tid=2827] INFO   cufio-udev:516 no devices found by udev enumeration for pci class: infiniband
+ 08-09-2026 08:42:32:798 [pid=2827 tid=2827] INFO   cufio-px-pool:494 POSIX pool buffer initialization complete
+ 08-09-2026 08:42:32:798 [pid=2827 tid=2827] INFO   curdma-ldbal:804 No RDMA devices configured,skipping RDMA load balancer initialization
+ 08-09-2026 08:42:32:900 [pid=2827 tid=2827] INFO   cufio_core:1164 CUFile initialization complete
+ 08-09-2026 08:42:32:909 [pid=2827 tid=2827] INFO   cufio-fs:449 Block dev: /dev/nvme2n1 numa node: 0 pci bridge: 0000:30:00.0 bdf: 0000:34:00.0
+ 08-09-2026 08:42:32:920 [pid=2827 tid=2885] WARN   cufio_core:1947 checkIfHostMem returning false for devPtr: 0x788ca0800000 curesult =  0
+ 08-09-2026 08:42:32:956 [pid=2827 tid=2885] ERROR  0:1529 cufile p2p chunk read failed fd: 38 buf: 0x788c7f800000  size: 4194304  offset: 0  ret: -1 errno Operation not supported
+ 08-09-2026 08:42:32:956 [pid=2827 tid=2885] ERROR  0:1135 read io failed at offset 0 size 4194304 retval -1
+ 08-09-2026 08:42:32:956 [pid=2827 tid=2885] ERROR  cufio_core:3617 Final direct subio failed retval  -1  buf_offset:  0  file_offset:  0  size:  4194304
+ 08-09-2026 08:42:32:956 [pid=2827 tid=2885] ERROR  cufio_core:3638 Setting I/O to failed. Expected I/O Size  4194304  actual:  0
+ 08-09-2026 08:42:32:961 [pid=2827 tid=2885] WARN   cufio_core:1947 checkIfHostMem returning false for devPtr: 0x788ca0800000 curesult =  0
+ 08-09-2026 08:42:32:962 [pid=2827 tid=2885] ERROR  0:1529 cufile p2p chunk read failed fd: 38 buf: 0x788c7f800000  size: 4194304  offset: 4194304  ret: -1 errno Operation not supported
+ 08-09-2026 08:42:32:962 [pid=2827 tid=2885] ERROR  0:1135 read io failed at offset 4194304 size 4194304 retval -1
+ 08-09-2026 08:42:32:962 [pid=2827 tid=2885] ERROR  cufio_core:3617 Final direct subio failed retval  -1  buf_offset:  4194304  file_offset:  4194304  size:  4194304
+ 08-09-2026 08:42:32:962 [pid=2827 tid=2885] ERROR  cufio_core:3638 Setting I/O to failed. Expected I/O Size  4194304  actual:  0
+ 08-09-2026 08:42:32:986 [pid=2827 tid=2827] INFO   cufio-px-pool:524 POSIX pool buffer release complete

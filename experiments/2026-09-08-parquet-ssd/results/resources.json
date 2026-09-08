@@ -1,0 +1,21 @@
+{
+  "region": "ap-south-1",
+  "instance_type": "g6.8xlarge",
+  "market": "on-demand",
+  "compute_rate_usd_per_hour_quoted": 2.4189,
+  "hourly_budget_usd": 5,
+  "root_ebs_gib": 150,
+  "local_nvme_count": 2,
+  "launch_utc": "2026-09-08T07:44:09Z",
+  "termination_requested_utc": "2026-09-08T09:11:36Z",
+  "cleanup_verified_utc": "2026-09-08T09:19:46Z",
+  "final_instance_state": "terminated",
+  "force_termination_requested_after_graceful_delay": true,
+  "remaining_experiment_volumes": 0,
+  "project_active_or_stopped_instances_audit": {
+    "ap-south-1": 0,
+    "us-east-1": 0
+  },
+  "estimated_total_usd_range": [3.6, 4.0],
+  "billing_note": "Estimate including setup and cleanup, not an AWS invoice. No instance/account/network/key identifiers are published."
+}
